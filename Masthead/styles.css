@@ -1,0 +1,124 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  background-color: black;
+    color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a black background color to the top navigation */
+.bottomnav {
+    background-color: black;
+    color: white;
+  overflow: hidden;
+  position:absolute;
+  width: 300px;
+  height:50px;
+  background:black;
+  bottom:0px;
+  right:25%;
+  left:50%;
+  margin-left:-150px;
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav a {
+  float: left;
+  background-color: black;
+    color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.bottomnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+.bottomnav a.active {
+    background-color: red;
+    color: white;
+  }
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 60px;
+    font-size: 17px;
+    
+  }
+
+  .topnav .signin {
+ float: right;
+ font-Size: 15px;
+  }
+ .topnav .Cart {
+    float: right;
+ font-Size: 15px;
+}
+ /* .Cartimg {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 60px;
+    font-size: 17px;
+    
+    
+ } */
+
+
+
+
+  .searchbutton {
+    background-image:url('https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png');
+    background-size:cover;
+    margin: 0;
+    background-color:red;
+  position: absolute;
+  top: 17px;
+
+    height:30px;
+    width:30px;
+
+  }
+
+  .font1 {
+      font-family:"Zen Loop";
+      text-shadow: 2px 2px;
+  }
+
+  .font2{
+      font-family:Qahiri;
+
+  }

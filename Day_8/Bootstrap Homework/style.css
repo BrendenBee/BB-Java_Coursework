@@ -1,0 +1,15 @@
+
+header {
+	background-color: #41d64d;
+	
+}
+
+
+footer {
+	background-color: #4441d6;
+	position: absolute;
+    bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+    
+}

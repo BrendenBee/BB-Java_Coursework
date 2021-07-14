@@ -27,7 +27,7 @@ function totalBillFunc() {
     return totalBill;
 };
 
-
+//new line
 // console.log(totalBill());
 
 // let calculator = {

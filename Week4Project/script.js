@@ -78,7 +78,7 @@ let totalTip;
     
     function totalTipFunc() {
         totalTip = (orderQuality * totalBill - totalBill);
-        totalAfterTip = Math.round(totalAfterTip * 100) / 100;
+        totalTip = Math.round(totalTip * 100) / 100;
         totalTip = totalTip.toFixed(2);
         console.log(totalTip);
         document.getElementById("totalTip").placeholder = totalTip;
